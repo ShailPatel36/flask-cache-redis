@@ -4,7 +4,7 @@
 
 To use this project, start by cloning the repository:
 ```bash
-git clone https://github.com/vjanz/flask-cache-redis.git
+git clone https://github.com/prof-liu/flask-cache-redis.git
 ```
 cd into the project, and make a copy of `.env_example` to `.env`
 ```bash
@@ -23,11 +23,6 @@ docker-compose down -v
 ```
 
 ### Test the application (API)
-We can use `curl` to make requests to our API. There is one endpoint `/universities`, so let's test that out.
+Go to your web browser and put int localhost:5000/universities?country=Germany
 
-```curl
-curl localhost:5000/universities?country=Germany
-```
 
-### License
-This project is licensed under the terms of the MIT license.
