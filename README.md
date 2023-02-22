@@ -23,6 +23,6 @@ docker-compose down -v
 ```
 
 ### Test the application (API)
-Go to your web browser and put int localhost:5000/universities?country=Germany
+Go to your web browser and put in localhost:5000/universities?country=Germany
 
 
